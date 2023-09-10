@@ -1,0 +1,46 @@
+.main-container {
+  background-color: #ffffff;   /* #282c34 */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+
+.App-link {
+  color: rgb(62, 66, 110);
+  font-size: calc(10px + 0.5vmin);
+  display: block;
+  
+}
+
+.top-box {
+  text-align: left;
+
+}
+
+.link-box {
+  text-align: left;
+  justify-content: right;
+}
+
+.link-box-1 {
+  display: inline-block;
+
+}
+.link-box-2 {
+  display: inline-block;
+
+}
+
+.social-links {
+  display: flex;
+}
+
+.bottom-box {
+  display: flex;
+  align-items: baseline
+}
