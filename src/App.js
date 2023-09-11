@@ -6,7 +6,7 @@ function App() {
       <div className="main-container">
         <div className="m2">
             <div className="top-box">
-                <h1>charlotte rosario</h1>
+                  <h2>charlotte rosario</h2>
             </div>
             <div className="link-box">
                 <div className="link-box-1">
@@ -24,7 +24,7 @@ function App() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      behavioral  health commission
+                      behavioral health commission
                     </a>
                     <a
                       className="App-link"
@@ -95,27 +95,34 @@ function App() {
                 </div>
             </div>
             <div className="bottom-box">
-                <p className="email-p">charlottearosario@gmail.com</p>
-                <div className="social-links">
+              <div className="social-box">
                     <a
-                        className="App-link"
-                        href="https://mrobotics8381.wordpress.com/"
+                        className="social-link"
+                        href="mailto:charlotterosario@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        charlotterosario@gmail.com
+                    </a>
+                    <a
+                        className="social-link"
+                        href="https://linkedin.com/in/charlotterosario/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         linkedin
                     </a>
                     <a
-                        className="App-link"
-                        href="https://mrobotics8381.wordpress.com/"
+                        className="social-link"
+                        href="https://github.com/charava"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         github
                     </a>
                     <a
-                        className="App-link"
-                        href="https://mrobotics8381.wordpress.com/"
+                        className="social-link"
+                        href="https://youtube.com/@charava"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -142,5 +149,6 @@ github
 calendly
 send me an email button 
 
+https://www.jemoka.com/card
 
 */

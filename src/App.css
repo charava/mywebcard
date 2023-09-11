@@ -1,3 +1,19 @@
+.App-link {
+  color: black;
+  display: block;
+}
+
+.App-link:hover {
+  text-decoration:none;
+}
+
+.social-link {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+
 .main-container {
   background-color: #ffffff;   /* #282c34 */
   min-height: 100vh;
@@ -5,42 +21,47 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: black;
 }
 
 
-.App-link {
-  color: rgb(62, 66, 110);
-  font-size: calc(10px + 0.5vmin);
-  display: block;
-  
-}
-
 .top-box {
   text-align: left;
-
+  font-size: calc(2.3vmin);
 }
 
 .link-box {
-  text-align: left;
-  justify-content: right;
+  justify-content: space-evenly;
+  display: flex;
+  font-size: calc(2vmin);
 }
 
 .link-box-1 {
-  display: inline-block;
-
+  text-align: left;
 }
 .link-box-2 {
-  display: inline-block;
-
+  text-align: right;
 }
 
-.social-links {
-  display: flex;
+.link-box > div {
+  margin-right: 10px; /* Adjust the margin as needed for the desired spacing */
 }
+
+.link-box > div:last-child {
+  margin-right: 0; /* Remove margin from the last div to avoid extra spacing */
+}
+
 
 .bottom-box {
+  height: 3vh;
   display: flex;
-  align-items: baseline
+  flex-direction: column;
+  justify-content: flex-end; /* Align items to the bottom */
+
+}
+.social-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: calc(1.5vmin);
 }
