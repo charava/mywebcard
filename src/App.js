@@ -54,11 +54,11 @@ function App() {
                 <div className="link-box-2">
                     <a
                       className="App-link"
-                      href="https://alsoproject.vercel.app"
+                      href="https://joinknowme.vercel.app"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      the also project
+                      knowme
                     </a>
                     <a
                       className="App-link"
@@ -150,5 +150,6 @@ calendly
 send me an email button 
 
 https://www.jemoka.com/card
+jklsnt.com
 
 */
