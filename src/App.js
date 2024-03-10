@@ -6,7 +6,7 @@ function App() {
       <div className="main-container">
         <div className="m2">
             <div className="top-box">
-                  <h2>charlotte rosario</h2>
+                  <h1>charlotte rosario</h1>
             </div>
             <div className="link-box">
                 <div className="link-box-1">
@@ -54,11 +54,11 @@ function App() {
                 <div className="link-box-2">
                     <a
                       className="App-link"
-                      href="https://joinknowme.vercel.app"
+                      href="https://knowsuicide.org/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      knowme
+                      knowsuicide
                     </a>
                     <a
                       className="App-link"
@@ -78,19 +78,19 @@ function App() {
                     </a>
                     <a
                       className="App-link"
+                      href="https://joinknowme.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      knowme
+                    </a>
+                    <a
+                      className="App-link"
                       href="https://nuevaschool.org/istudio"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       greenswing
-                    </a>
-                    <a
-                      className="App-link"
-                      href="https://mrobotics8381.wordpress.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      robots
                     </a>
                 </div>
             </div>

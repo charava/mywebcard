@@ -1,14 +1,18 @@
+
 .App-link {
   color: black;
+
   display: block;
 }
 
 .App-link:hover {
   text-decoration:none;
+  color: #F24822;
 }
 
 .social-link {
   color: black;
+
   display: block;
   text-decoration: none;
 }
@@ -23,17 +27,24 @@
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
   color: black;
+  font-family: 'Roboto',sans-serif;
+  background-color: white;
+  
 }
 
 .top-box {
-  text-align: left;
-  font-size: calc(2.3vmin);
+  text-align: center;
+  font-size: calc(2.5vmin);
+  letter-spacing: 1px; /* Adjust the letter-spacing value as needed */
+
 }
 
 .link-box {
   justify-content: space-evenly;
   display: flex;
   font-size: calc(2vmin);
+  letter-spacing: 2px; /* Adjust the letter-spacing value as needed */
+
 }
 
 .link-box-1 {
@@ -53,7 +64,7 @@
 
 
 .bottom-box {
-  height: 3vh;
+  height: 4vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end; /* Align items to the bottom */
