@@ -7,6 +7,7 @@ function App() {
         <div className="m2">
             <div className="top-box">
                   <h1>charlotte rosario</h1>
+                  <p>interdisciplinary tinkerer of various things</p>
             </div>
             <div className="link-box">
                 <div className="link-box-1">

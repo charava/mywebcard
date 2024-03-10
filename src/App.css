@@ -36,11 +36,19 @@
   text-align: center;
   font-size: calc(2.5vmin);
   letter-spacing: 1px; /* Adjust the letter-spacing value as needed */
+}
+.top-box h1 {
+  margin-bottom: 0px
 
 }
 
+.top-box p {
+  padding: 0px;
+  margin-bottom: 2vh
+}
+
 .link-box {
-  justify-content: space-evenly;
+  justify-content: space-between;
   display: flex;
   font-size: calc(2vmin);
   letter-spacing: 2px; /* Adjust the letter-spacing value as needed */
@@ -55,7 +63,7 @@
 }
 
 .link-box > div {
-  margin-right: 10px; /* Adjust the margin as needed for the desired spacing */
+  margin-right: 10px; /*Adjust the margin as needed for the desired spacing*/
 }
 
 .link-box > div:last-child {
