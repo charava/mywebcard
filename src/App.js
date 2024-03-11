@@ -87,7 +87,7 @@ function App() {
                     </a>
                     <a
                       className="App-link"
-                      href="https://nuevaschool.org/istudio"
+                      href="https://greenswingenergy.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
