@@ -13,11 +13,11 @@ function App() {
                 <div className="link-box-1">
                     <a
                       className="App-link"
-                      href="https://nuevaschool.org/istudio"
+                      href="https://mentalhealthlab.org"
                       target="_blank"
                       rel-="noopener noreferrer"
                     >
-                      invention studio
+                      mental health i-lab 
                     </a>
                     <a
                       className="App-link"
@@ -55,11 +55,11 @@ function App() {
                 <div className="link-box-2">
                     <a
                       className="App-link"
-                      href="https://knowsuicide.org/"
+                      href="https://nuevaschool.org/istudio"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      knowsuicide
+                      invention studio
                     </a>
                     <a
                       className="App-link"
