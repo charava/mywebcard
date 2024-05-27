@@ -1,5 +1,11 @@
 import './App.css';
 
+
+
+// fix the vercel name as the title
+// https://www.reddit.com/r/nextjs/comments/1ari35e/google_results_showing_vercel_as_site_name_why/?scrlybrkr=02624329
+
+
 function App() {
   return (
     <div className="App">
@@ -13,11 +19,11 @@ function App() {
                 <div className="link-box-1">
                     <a
                       className="App-link"
-                      href="https://mentalhealthlab.org"
+                      href="https://searchmentalhealth.com"
                       target="_blank"
                       rel-="noopener noreferrer"
                     >
-                      mental health i-lab 
+                      searchmentalhealth.com
                     </a>
                     <a
                       className="App-link"
@@ -29,20 +35,21 @@ function App() {
                     </a>
                     <a
                       className="App-link"
-                      href="https://www.stanfordpandastudy.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      hong lab @ CIBSR
-                    </a>
-                    <a
-                      className="App-link"
                       href="https://communityphotobooth.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       philanthro-photography
                     </a>
+                    <a
+                      className="App-link"
+                      href="https://www.stanfordpandastudy.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      hong lab @ CIBSR
+                    </a>
+                    
                     <a
                       className="App-link"
                       href="https://epics02.wordpress.com/"
@@ -63,11 +70,11 @@ function App() {
                     </a>
                     <a
                       className="App-link"
-                      href="https://www.smdailyjournal.com/news/local/open-mic-for-mental-health-in-san-mateo/article_760f7d12-8283-11ed-bc31-9f21b4af9384.html"
+                      href="https://joinknowme.vercel.app"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      open mic 
+                      knowme
                     </a>
                     <a
                       className="App-link"
@@ -77,13 +84,14 @@ function App() {
                     >
                       documentary
                     </a>
+                   
                     <a
                       className="App-link"
-                      href="https://joinknowme.vercel.app"
+                      href="https://www.smdailyjournal.com/news/local/open-mic-for-mental-health-in-san-mateo/article_760f7d12-8283-11ed-bc31-9f21b4af9384.html"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      knowme
+                      open mic 
                     </a>
                     <a
                       className="App-link"

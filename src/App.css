@@ -1,22 +1,24 @@
 
 .App-link {
-  color: black;
-
+  color: #6799b6;
   display: block;
+  text-decoration:underline;
+
 }
 
 .App-link:hover {
   text-decoration:none;
-  color: #F24822;
+
+  color: #2e536a;
+
 }
 
 .social-link {
-  color: black;
+  color: darkgray;
 
   display: block;
   text-decoration: none;
 }
-
 
 .main-container {
   background-color: #ffffff;   /* #282c34 */
@@ -27,13 +29,13 @@
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
   color: black;
-  font-family: 'Roboto',sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background-color: white;
-  
 }
 
+
 .top-box {
-  text-align: center;
+  text-align: left;
   font-size: calc(4vmin);
   letter-spacing: 1px; /* Adjust the letter-spacing value as needed */
 }
