@@ -90,3 +90,28 @@
   justify-content: space-between;
   font-size: calc(2.5vmin);
 }
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.grid-item-container {
+  text-align: center;
+}
+
+.grid-item {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.image-label {
+  margin-top: 5px;
+  font-size: 10px;
+  color: rgb(163, 163, 163);
+  text-align: left;
+}
