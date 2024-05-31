@@ -17,6 +17,11 @@ function Faces() {
               <div className="image-label">{image.filename}</div>
             </div>
           ))}
+          <div className="grid-container">
+              <img src="./char_and_face.jpg" style={{ width: '250px' }} alt="Description of image" />
+              <div className="image-label">My first face drawing at age 7</div>
+          </div>
+
         </div>
       </div>
     </div>

@@ -59,6 +59,15 @@ function Home() {
                     >
                       existential philosophy
                     </a>
+
+                    <a
+                      className="App-link"
+                      href="/faces"
+                      rel="noopener noreferrer"
+                    >
+                      hand-drawn "faces"
+                    </a>
+
                 </div>
                 <div className="link-box-2">
                     <a
@@ -102,6 +111,14 @@ function Home() {
                     >
                       greenswing
                     </a>
+                    <a
+                      className="App-link"
+                      href="/photos"
+                      rel="noopener noreferrer"
+                    >
+                      my photo diary
+                      </a>
+
                 </div>
             </div>
             <div className="bottom-box">
