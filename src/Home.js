@@ -7,6 +7,12 @@ import React from 'react';
 // https://www.reddit.com/r/nextjs/comments/1ari35e/google_results_showing_vercel_as_site_name_why/?scrlybrkr=02624329
 
 
+// greenswing
+// history research paper on 20th century mental health 
+// cibsr research paper
+
+
+
 function Home() {
   return (
     <div className="App">
@@ -40,7 +46,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      philanthro-photography
+                      the community photobooth
                     </a>
                     <a
                       className="App-link"
@@ -50,7 +56,14 @@ function Home() {
                     >
                       hong lab @ CIBSR
                     </a>
-                    
+                    <a
+                      className="App-link"
+                      href="https://aclanthology.org/2023.ranlp-stud.4/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      depression NLP research
+                    </a>
                     <a
                       className="App-link"
                       href="https://epics02.wordpress.com/"
@@ -60,13 +73,7 @@ function Home() {
                       existential philosophy
                     </a>
 
-                    <a
-                      className="App-link"
-                      href="/faces"
-                      rel="noopener noreferrer"
-                    >
-                      hand-drawn "faces"
-                    </a>
+                    
 
                 </div>
                 <div className="link-box-2">
@@ -84,7 +91,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      knowme
+                      knowme app
                     </a>
                     <a
                       className="App-link"
@@ -92,7 +99,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      documentary
+                      mini documentary
                     </a>
                    
                     <a
@@ -101,22 +108,21 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      open mic 
+                      mental health open mic 
                     </a>
                     <a
                       className="App-link"
-                      href="https://greenswingenergy.com"
-                      target="_blank"
+                      href="/faces"
                       rel="noopener noreferrer"
                     >
-                      greenswing
+                      hand-drawn "faces"
                     </a>
                     <a
                       className="App-link"
                       href="/photos"
                       rel="noopener noreferrer"
                     >
-                      my photo diary
+                      photography journal
                       </a>
 
                 </div>
