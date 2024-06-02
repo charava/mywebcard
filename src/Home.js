@@ -91,7 +91,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      knowme
+                      knowme app
                     </a>
                     <a
                       className="App-link"
@@ -99,7 +99,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      documentary
+                      mini documentary
                     </a>
                    
                     <a
@@ -108,7 +108,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      open mic 
+                      mental health open mic 
                     </a>
                     <a
                       className="App-link"
