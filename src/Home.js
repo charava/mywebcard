@@ -46,7 +46,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      the community photobooth
+                      community photobooth
                     </a>
                     <a
                       className="App-link"
@@ -62,7 +62,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      depression NLP research
+                      depression NLP
                     </a>
                     <a
                       className="App-link"
@@ -91,7 +91,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      knowme app
+                      knowme
                     </a>
                     <a
                       className="App-link"
@@ -99,7 +99,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      mini documentary
+                      documentary
                     </a>
                    
                     <a
@@ -108,7 +108,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      mental health open mic 
+                      open mic 
                     </a>
                     <a
                       className="App-link"

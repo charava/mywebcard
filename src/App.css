@@ -21,6 +21,7 @@
 }
 
 .main-container {
+  margin: 0px 50px;
   background-color: #ffffff;   /* #282c34 */
   min-height: 100vh;
   display: flex;
@@ -59,15 +60,27 @@
   display: flex;
   font-size: calc(3vmin);
   letter-spacing: 2px; /* Adjust the letter-spacing value as needed */
-
 }
-
 .link-box-1 {
   text-align: left;
 }
 .link-box-2 {
   text-align: right;
 }
+
+@media only screen and (max-width: 600px) {
+  .link-box {
+    display: block;
+
+  }
+
+  .link-box-2 {
+    text-align: left;
+  }
+  
+}
+
+
 
 .link-box > div {
   margin-right: 10px; /*Adjust the margin as needed for the desired spacing*/
