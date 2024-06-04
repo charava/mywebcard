@@ -11,10 +11,12 @@ function Photos() {
             <div key={index} className="grid-item-container">
               <img
                 src={image.src}
-                alt={`Face drawing ${index + 1}`}
+                alt={`Photo ${index + 1}`}
                 className="grid-item"
               />
-              {/* <div className="image-label">{image.filename}</div> */}
+              <div className="image-label">
+                {image.name} - {image.location} - {image.date}
+              </div>
             </div>
           ))}
         </div>
