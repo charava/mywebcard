@@ -79,7 +79,7 @@ function Home() {
                 <div className="link-box-2">
                     <a
                       className="App-link"
-                      href="https://nuevaschool.org/istudio"
+                      href="https://sites.google.com/nuevaschool.org/istudio/welcome"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
