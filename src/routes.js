@@ -16,7 +16,7 @@ export const RoutesList = () => {
           <Route path='/' element={<Home />} />
           <Route path='/faces' element={<Faces />} />
           <Route path='/photos' element={<Photos />} />
-          <Route path='*' element={<p>Hmmm...Sneaking around, I see. There's nothing here! </p>} />
+          <Route path='*' element={<p style={{ textAlign: 'center' }}>Hmmm...sneaking around, I see. There's nothing here! <br />- xoxo, charlotte </p>} />
         </Routes>
     </div>
   );
