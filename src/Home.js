@@ -11,6 +11,17 @@ import React from 'react';
 // history research paper on 20th century mental health 
 // cibsr research paper
 
+// 988 council
+// life span of loneliness nyt, poitns of light, cbs search mental health
+// cbs kids in crisis, cbs aapi month, drew barrymore show, abc searchmentalhealth
+// abc documentary
+// cbs documentary
+// mental health television network
+// kqed
+// nami next gen
+// unicef youth rep
+
+
 
 
 function Home() {
