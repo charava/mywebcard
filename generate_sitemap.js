@@ -12,7 +12,7 @@ const links = [
 ];
 
 // Create a stream to write to
-const stream = new SitemapStream({ hostname: 'https://charlotterosario.com' }); // Replace with your domain
+const stream = new SitemapStream({ hostname: 'https://www.charlotterosario.com' }); // Replace with your domain
 
 // Return a promise that resolves with your XML string
 streamToPromise(Readable.from(links).pipe(stream))
