@@ -11,16 +11,13 @@ import React from 'react';
 // history research paper on 20th century mental health 
 // cibsr research paper
 
-// 988 council
-// life span of loneliness nyt, poitns of light, cbs search mental health
+// life span of loneliness nyt, poitns of light, cbs search mental health, teenvogue
 // cbs kids in crisis, cbs aapi month, drew barrymore show, abc searchmentalhealth
 // abc documentary
 // cbs documentary
 // mental health television network
 // kqed
 // nami next gen
-// unicef youth rep
-
 
 
 
@@ -65,7 +62,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      hong lab @ CIBSR
+                      hong lab @ cibsr
                     </a>
                     <a
                       className="App-link"
@@ -73,7 +70,7 @@ function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      depression NLP
+                      depression nlp research
                     </a>
                     <a
                       className="App-link"
@@ -82,6 +79,14 @@ function Home() {
                       rel="noopener noreferrer"
                     >
                       existential philosophy
+                    </a>
+                    <a
+                      className="App-link"
+                      href="https://www.unicefusa.org/about-unicef-usa/leadership/youth-leadership"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      unicef youth rep
                     </a>
 
                     
@@ -123,6 +128,14 @@ function Home() {
                     </a>
                     <a
                       className="App-link"
+                      href="https://youmatter.988lifeline.org/author/charlotte/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      988 lifeline blog
+                    </a>
+                    <a
+                      className="App-link"
                       href="/faces"
                       rel="noopener noreferrer"
                     >
@@ -135,6 +148,7 @@ function Home() {
                     >
                       photography journal
                       </a>
+
 
                 </div>
             </div>
