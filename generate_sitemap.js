@@ -8,6 +8,11 @@ const links = [
   { url: '/', changefreq: 'daily', priority: 1.0 },
   { url: '/faces', changefreq: 'weekly', priority: 0.8 },
   { url: '/photos', changefreq: 'weekly', priority: 0.8 },
+  { url: '/press', changefreq: 'weekly', priority: 0.8 },
+  { url: '/books', changefreq: 'weekly', priority: 0.8 },
+  { url: '/quotes', changefreq: 'weekly', priority: 0.8 },
+  { url: '/questions', changefreq: 'weekly', priority: 0.8 },
+  { url: '/archive', changefreq: 'weekly', priority: 0.8 },
   // Add more URLs if needed
 ];
 

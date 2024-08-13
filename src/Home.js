@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -155,6 +156,8 @@ function Home() {
             </div>
             <div className="bottom-box">
               <div className="social-box">
+                  <Link className="social-link" to="/archive">+</Link>
+
                     <a
                         className="social-link"
                         href="mailto:charlotterosario@gmail.com"
@@ -187,6 +190,8 @@ function Home() {
                       >
                         youtube
                     </a>
+
+
                 </div>
             </div>
           </div>
