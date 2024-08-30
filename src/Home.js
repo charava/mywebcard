@@ -43,7 +43,7 @@ function Home() {
                     </a>
                     <a
                       className="App-link"
-                      href="https://smcbhrsblog.org/category/behavioral-health-commission/"
+                      href="https://smcbhrsblog.org/2024/05/02/celebrating-community-at-the-2024-tony-hoffman-awards/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
