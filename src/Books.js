@@ -13,6 +13,7 @@ function BooksArchive() {
       <p><small><i>i only recently started recording the exact date i finished reading the book. ive forgotten a lot of the books ive read in the past but here is a list of some.</i></small></p>
 
         <ul>
+        <li>A View From the Stars - Cixin Liu - 8/18/24</li>
         <li>Tomorrow, and Tomorrow, and Tomorrow - Gabrielle Zevin - 8/10/24</li>
         <li>Brave New World - 7/31/24</li>
         <li>Factfulness - 7/24/24</li>

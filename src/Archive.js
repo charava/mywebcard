@@ -10,7 +10,7 @@ const Archive = () => {
 
       <ul>
         <li>
-          <Link className="App-link" to="/press">see my shenanigans in the news</Link>
+          <Link className="App-link" to="/press">shenanigans in the news</Link>
         </li>
         <li>
           <Link className="App-link" to="/books">list of books i enjoyed reading because why not</Link>
