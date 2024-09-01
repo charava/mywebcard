@@ -86,6 +86,7 @@ function BooksArchive() {
         <li>Far from the Tree</li>
         <li>All the Bright Places</li>
         <li>The Apology</li>
+        <li>Frankenstein</li>
       </ul>
     </div>
       

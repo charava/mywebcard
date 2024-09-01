@@ -20,6 +20,11 @@
   text-decoration: none;
 }
 
+.social-link:hover {
+  color: rgb(70, 70, 70)
+  
+
+}
 .main-container {
   margin: 0px 50px;
   background-color: #ffffff;   /* #282c34 */

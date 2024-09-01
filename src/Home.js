@@ -156,7 +156,7 @@ function Home() {
             </div>
             <div className="bottom-box">
               <div className="social-box">
-                  <Link className="social-link" to="/archive">+</Link>
+                  <Link className="social-link" to="/archive">[+]</Link>
 
                     <a
                         className="social-link"
