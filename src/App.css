@@ -128,7 +128,12 @@
 .image-label {
   margin-top: 5px;
   font-size: 14px;
-  color: #333;
+  color: grey;
+}
+
+.photographing2020 {
+  color: grey;
+  text-align: left;
 }
 
 .modal {

@@ -16,7 +16,9 @@ function Photos() {
   return (
     <div className="App">
       <div className="main-container">
-        <div className="grid-container">
+      <p className="photographing2020">BTW, I also did a lil social-justice photo project in 2020 that you can check out <a href="https://photographing2020.onuniverse.com/" target="_blank">here</a>.
+    </p>
+       <div className="grid-container">
           {photos.map((image, index) => (
             <div key={index} className="grid-item-container" onClick={() => handleImageClick(image)}>
               <img
