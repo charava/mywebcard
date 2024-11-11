@@ -11,6 +11,14 @@ const MCHRI = () => {
                     style={{ width: "auto", height: "95vh" }} // Adjust the width as needed
 
                 />
+        <br></br>
+         <img
+                    src={"other-assets/MCHRI_poster.pptx.jpg"}
+                    alt={`Stanford MCRHI Poster - Charlotte Rosario`}
+                    style={{ width: "auto", height: "95vh" }} // Adjust the width as needed
+
+                />
+        <br></br>
       </div>
     </div>
   );
