@@ -12,12 +12,16 @@ const MCHRI = () => {
 
                 />
         <br></br>
+        <br></br>
+
          <img
                     src={"other-assets/MCHRI_poster.pptx.jpg"}
                     alt={`Stanford MCRHI Poster - Charlotte Rosario`}
-                    style={{ width: "auto", height: "95vh" }} // Adjust the width as needed
+                    style={{ width: "95vw", height: "auto" }} // Adjust the width as needed
 
                 />
+        <br></br>
+        <br></br>
         <br></br>
       </div>
     </div>
