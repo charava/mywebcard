@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import photos from './importAllPhotos';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function Photos() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -42,8 +43,21 @@ function Photos() {
               {selectedImage.name} - {selectedImage.location} - {selectedImage.date}
             </div>
           </div>
+          
         </div>
       )}
+      <div style={{ textAlign: 'center', marginTop: '20px', paddingBottom: '40px' }}>
+              <Link
+                    style={{
+                      textDecoration: 'none',
+                      fontSize: '12px',
+                      color: 'gray',
+                    }}
+                    to="/"
+                  >
+                    ← take me homeeee
+                  </Link>
+            </div>
     </div>
   );
 }

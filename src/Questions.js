@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function QuestionsArchive() {
   return (
@@ -35,6 +36,18 @@ function QuestionsArchive() {
         <li>How do we induce more empathy? Can we use technology to do this?</li>
       </ul>
     </div>
+    <div style={{ textAlign: 'center', marginTop: '20px', paddingBottom: '40px' }}>
+          <Link
+                style={{
+                  textDecoration: 'none',
+                  fontSize: '12px',
+                  color: 'gray',
+                }}
+                to="/archive"
+              >
+                ← take me back
+              </Link>
+              </div>
       
     </div>
   );

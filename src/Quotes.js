@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function QuotesArchive() {
   return (
@@ -34,6 +35,18 @@ function QuotesArchive() {
                 <li>"Sometimes the path we want to take doesn’t exist yet, so start walking until you find your path or the reason to create your own." - my yoga instructor Samara</li>
             </ul>
             </div>
+            <div style={{ textAlign: 'center', marginTop: '20px', paddingBottom: '40px' }}>
+            <Link
+                  style={{
+                    textDecoration: 'none',
+                    fontSize: '12px',
+                    color: 'gray',
+                  }}
+                  to="/archive"
+                >
+                  ← take me back
+                </Link>
+                </div>
       
       
       </div>

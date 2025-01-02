@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function ListArchive() {
   return (
@@ -33,6 +34,7 @@ function ListArchive() {
       <p>Mental Health Advocacy</p>
       <ul>
         <li><a href="https://www.nytimes.com/2023/12/21/opinion/loneliness-epidemic-mental-health.html" target="_blank" rel="noopener noreferrer">The New York Times Op-Doc - “The Life Span of Loneliness”</a></li>
+        <li><a href="https://www.samhsa.gov/spark/star-awards/honorees" target="_blank" rel="noopener noreferrer">SAMHSA - "Inaugural Trailblazers in Advancing Recovery (STAR) Award Winners"</a></li>
         <li><a href="https://www.cbsnews.com/sanfrancisco/video/stanford-soccer-stars-tragic-death-intensifies-attention-on-mental-health/" target="_blank" rel="noopener noreferrer">CBS News - “Kids in Crisis” (Live studio interview)</a></li>
         <li><a href="https://youtu.be/yTPr2RdTxM0?si=9uamBRSfOnogzM4n" target="_blank" rel="noopener noreferrer">TEDx Talk, “No, I do not live in a perfect family”</a></li>
         <li><a href="https://www.teenvogue.com/story/rise-global-winners" target="_blank" rel="noopener noreferrer">TeenVogue - Rise Global Winners (1/3 winners featured)</a></li>
@@ -44,11 +46,24 @@ function ListArchive() {
       
       <p>The Community Photobooth</p>
       <ul>
+        <li><a href="https://people.com/celebrate-international-day-of-the-girl-with-people-s-girls-changing-the-world-in-2024-8725663" target="_blank" rel="noopener noreferrer">PEOPLE Magazine - "Girls Changing the World in 2024"</a></li>
         <li><a href="https://www.smdailyjournal.com/news/local/advocacy-through-community-photobooth-at-nueva-school-in-burlingame/article_eb457d3a-97b8-11ed-847d-1fdc5f134d5b.html" target="_blank" rel="noopener noreferrer">San Mateo Daily Journal - “Advocacy through Community Photobooth at Nueva School in Burlingame”</a></li>
         <li><a href="https://supportparks.org/the-community-photobooth-raising-money-and-awareness-to-support-parks/" target="_blank" rel="noopener noreferrer">San Mateo County Parks Foundation - “The Community Photobooth–Raising Money and Awareness to Support Parks”</a></li>
         <li><a href="https://www.smcoe.org/for-communities/environmental-literacy/scrs-changemakers.html" target="_blank" rel="noopener noreferrer">San Mateo County Office of Education - “Changemakers”</a></li>
       </ul>
     </div>
+    <div style={{ textAlign: 'center', marginTop: '20px', paddingBottom: '40px' }}>
+          <Link
+                style={{
+                  textDecoration: 'none',
+                  fontSize: '12px',
+                  color: 'gray',
+                }}
+                to="/archive"
+              >
+                ← take me back
+              </Link>
+              </div>
       </div>
     </div>
   );
