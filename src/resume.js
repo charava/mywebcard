@@ -15,18 +15,7 @@ const Resume = () => {
         border: 'none',
       }}
     />
-      <div style={{ textAlign: 'center', marginTop: '20px', paddingBottom: '40px' }}>
-          <Link
-                style={{
-                  textDecoration: 'none',
-                  fontSize: '12px',
-                  color: 'gray',
-                }}
-                to="/archive"
-              >
-                ← take me back
-              </Link>
-              </div>
+      
     </div>
     </div>
   );
