@@ -10,6 +10,7 @@ import QuotesArchive from './Quotes.js';
 import QuestionsArchive from './Questions.js';
 import Archive from './Archive.js';
 import MCHRI from './MCHRI_poster.js';
+import Resume from './resume.js';
 import PlacesTraveled from './Travel.js';
 
 export const RoutesList = () => {
@@ -27,6 +28,7 @@ export const RoutesList = () => {
           <Route path='/questions' element={<QuestionsArchive />} />
           <Route path='/archive' element={<Archive />} />
           <Route path='/stanford-mchri' element={<MCHRI />} />
+          <Route path='/resume' element={<Resume />} />
           <Route path='/travel' element={<PlacesTraveled />} />
           <Route path='*' element={<p style={{ textAlign: 'center' }}>Hmmm...sneaking around, I see. There's nothing here! <br />- xoxo, charlotte </p>} />
         </Routes>
