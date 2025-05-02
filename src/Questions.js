@@ -12,8 +12,6 @@ function QuestionsArchive() {
 
       <ul>
         <li>Is culture across the country and world homogenizing now with the younger generation?</li>
-        <li>What is the life of “hillbilly kids”? Cuz I don’t hear about them on the news -- anthropology?</li>
-        <li>How to detect and prevent rabbit holes - Social media pushes people further into their issues and insecurities</li>
         <li>What is the data of our brains? Versus AI data, qualia?</li>
         <li>How can we give real-time data on someone’s bipolar disorder</li>
         <li>How does philosophy physically change our brains? Mental health?</li>

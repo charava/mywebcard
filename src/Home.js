@@ -59,11 +59,11 @@ function Home() {
                     </a>
                     <a
                       className="App-link"
-                      href="https://www.stanfordpandastudy.com/"
+                      href="https://www.societyforscience.org/regeneron-sts/2025-student-finalists/charlotte-rosario/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      hong lab @ cibsr
+                      MRI neuroimaging research
                     </a>
                     <a
                       className="App-link"
@@ -119,15 +119,6 @@ function Home() {
                     >
                       mini documentary
                     </a>
-                   
-                    <a
-                      className="App-link"
-                      href="https://www.smdailyjournal.com/news/local/open-mic-for-mental-health-in-san-mateo/article_760f7d12-8283-11ed-bc31-9f21b4af9384.html"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      mental health open mic 
-                    </a>
                     <a
                       className="App-link"
                       href="https://youmatter.988lifeline.org/author/charlotte/"
@@ -136,6 +127,15 @@ function Home() {
                     >
                       988 lifeline blog
                     </a>
+                    <a
+                      className="App-link"
+                      href="https://www.smdailyjournal.com/news/local/open-mic-for-mental-health-in-san-mateo/article_760f7d12-8283-11ed-bc31-9f21b4af9384.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      mental health open mic 
+                    </a>
+                    
                     <a
                       className="App-link"
                       href="/faces"
