@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 function BooksArchive() {
   const books = [
+    { title: 'Hillbilly Elegy', author: 'JD Vance', date: '5/11/25' },
     { title: 'When Breath Becomes Air', author: 'Paul Kalinithi', date: '12/30/24' },
     { title: 'A Heart in a Body in a World' },
     { title: 'A Little Life' },

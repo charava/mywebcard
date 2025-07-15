@@ -121,11 +121,11 @@ function Home() {
                     </a>
                     <a
                       className="App-link"
-                      href="https://youmatter.988lifeline.org/author/charlotte/"
+                      href="/stanford-mchri"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      988 lifeline blog
+                      stanford mchri poster
                     </a>
                     <a
                       className="App-link"

@@ -11,6 +11,7 @@ function QuestionsArchive() {
         
 
       <ul>
+        <li>How might we be able to expand the human umwelt?</li>
         <li>Is culture across the country and world homogenizing now with the younger generation?</li>
         <li>What is the data of our brains? Versus AI data, qualia?</li>
         <li>How can we give real-time data on someone’s bipolar disorder</li>
