@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import '../App.css';
 import { Link } from 'react-router-dom';
 
 function PlacesTraveled() {
@@ -12,7 +12,7 @@ function PlacesTraveled() {
     'Inian Islands, Alaska',
     'Gustavis, Alaska',
     'Juneau, Alaska',
-    'Kaua’i, Hawaii',
+    'Kaua\'i, Hawaii',
     'Maui, Hawaii',
     'Kona, Hawaii',
     'Hilo, Hawaii',
@@ -56,37 +56,38 @@ function PlacesTraveled() {
     'Vancouver',
     'Washington D.C.',
     'Wyoming',
-    'Providence, Rhode Island'
+    'Providence, Rhode Island',
+    'Taiwan',
+    'Tokyo, Japan',
+    'Kyoto, Japan',
+    'Brooklyn',
   ];
 
   const sortedPlaces = places.sort((a, b) => a.localeCompare(b));
 
   return (
     <div className="App">
-      <div className="main-container">
-        <div>
-          <p>I love exploring! Hoping to travel to as many places around Earth (and maybe...Mars?!!) as humanly possible before I die. Here's some places I've been fortunate to visit:</p>
-          
-          <ul>
-            {sortedPlaces.map((place, index) => (
-              <li key={index}>
-                {place}
-              </li>
-            ))}
-          </ul>
+      <div className="content-container">
+        <p className="intro-text">
+          I love exploring! Hoping to travel to as many places around Earth (and maybe...Mars?!!) as humanly possible before I die. Here's some places I've been fortunate to visit:
+        </p>
+        
+        <ul className="clean-list" style={{ 
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
+          gap: '0.5rem'
+        }}>
+          {sortedPlaces.map((place, index) => (
+            <li key={index} className="list-item-small">
+              {place}
+            </li>
+          ))}
+        </ul>
+        <div className="nav-back">
+          <Link className="nav-link" to="/">
+            ← back
+          </Link>
         </div>
-        <div style={{ textAlign: 'center', marginTop: '20px', paddingBottom: '40px' }}>
-          <Link
-                style={{
-                  textDecoration: 'none',
-                  fontSize: '12px',
-                  color: 'gray',
-                }}
-                to="/archive"
-              >
-                ← take me back
-              </Link>
-              </div>
       </div>
     </div>
   );

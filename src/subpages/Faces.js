@@ -1,6 +1,6 @@
 import React from 'react';
-import images from './importAll';
-import './App.css';
+import images from '../importAll';
+import '../App.css';
 import { Link } from 'react-router-dom';
 
 function Faces() {
@@ -17,27 +17,19 @@ function Faces() {
               />
               <div className="image-label">
                 {image.filename}
-                </div>
+              </div>
             </div>
           ))}
           <div className="grid-item-container">
-              <img src="./char_and_face.jpg" className="grid-item" alt="Description of image" />
-              <div className="image-label">My first face drawing at age 7</div>
+            <img src="./char_and_face.jpg" className="grid-item" alt="Description of image" />
+            <div className="image-label">My first face drawing at age 7</div>
           </div>
-
         </div>
-        <div style={{ textAlign: 'center', marginTop: '20px', paddingBottom: '40px' }}>
-          <Link
-                style={{
-                  textDecoration: 'none',
-                  fontSize: '12px',
-                  color: 'gray',
-                }}
-                to="/"
-              >
-                ← take me homeeee
-              </Link>
-              </div>
+        <div className="nav-back">
+          <Link className="nav-link" to="/">
+            ← back
+          </Link>
+        </div>
       </div>
     </div>
   );

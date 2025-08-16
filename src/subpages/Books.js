@@ -1,9 +1,12 @@
 import React from 'react';
-import './App.css';
+import '../App.css';
 import { Link } from 'react-router-dom';
 
 function BooksArchive() {
   const books = [
+    { title: 'James', author: 'Percival Everett', date: '8/14/25' },
+    { title: 'Normal People', author: 'Sally Rooney', date: '7/28/25' },
+    { title: 'The Worlds I see', author: 'Fei Fei Li', date: '7/10/25' },
     { title: 'Hillbilly Elegy', author: 'JD Vance', date: '5/11/25' },
     { title: 'When Breath Becomes Air', author: 'Paul Kalinithi', date: '12/30/24' },
     { title: 'A Heart in a Body in a World' },
@@ -11,9 +14,9 @@ function BooksArchive() {
     { title: 'A Very Large Expanse of Sea' },
     { title: 'A View From the Stars', author: 'Cixin Liu', date: '8/18/24' },
     { title: 'All the Bright Places' },
-    { title: 'Are You There God? It’s Me, Margaret' },
+    { title: 'Are You There God? It\'s Me, Margaret' },
     { title: 'Between Shades of Grey' },
-    { title: 'Bill Bryson - I’m a Stranger Here Myself', author: 'Bill Bryson', date: '2024' },
+    { title: 'Bill Bryson - I\'m a Stranger Here Myself', author: 'Bill Bryson', date: '2024' },
     { title: 'Brave New World', author: 'Aldous Huxley', date: '7/31/24' },
     { title: 'Brown Girl Dreaming' },
     { title: 'Chains' },
@@ -30,15 +33,15 @@ function BooksArchive() {
     { title: 'Frankenstein' },
     { title: 'Girl in Pieces', author: 'Kathleen Glasgow' },
     { title: 'Holding Up the Universe' },
-    { title: 'I’m Not Your Perfect Mexican Daughter' },
-    { title: 'I’ll Give You the Sun' },
+    { title: 'I\'m Not Your Perfect Mexican Daughter' },
+    { title: 'I\'ll Give You the Sun' },
     { title: 'Kira Kira' },
     { title: 'Lord of the Flies', author: 'William Golding', date: '7/23' },
     { title: 'Long Way Down' },
     { title: 'Me and Earl and the Dying Girl' },
     { title: 'My Year of Rest and Relaxation', author: 'Ottessa Moshfegh', date: '6/23/24' },
     { title: 'Never Let Me Go', author: 'Kazuo Ishiguro' },
-    { title: 'Olive’s Ocean' },
+    { title: 'Olive\'s Ocean' },
     { title: 'On the Come Up' },
     { title: 'Opposite of Always' },
     { title: 'Ordinary Hazards' },
@@ -83,14 +86,18 @@ function BooksArchive() {
 
   return (
     <div className="App">
-      <div className="main-container">
+      <div className="main-container center">
         <div>
-          <p>Books have very good nutritional value. I consume them as training data. If we're all just AI, might as well have high accuracy.</p>
-          <p><small><i>I only recently started recording the exact date I finished reading the book. I've forgotten a lot of the books I've read in the past, but here is a list of some.</i></small></p>
+          <h1 className="intro-text-compact">
+            books have very good nutritional value. I consume them as training data. If we're all just AI, might as well have high accuracy.
+          </h1>
+          <p className="intro-text-small">
+            I only recently started recording the exact date I finished reading the book. I've forgotten a lot of the books I've read in the past, but here is a list of some.
+          </p>
 
-          <ul>
+          <ul className="clean-list">
             {sortedBooks.map((book, index) => (
-              <li key={index}>
+              <li key={index} className="list-item-small">
                 {book.title}
                 {book.author && ` - ${book.author}`}
                 {book.date && ` - ${book.date}`}
@@ -98,18 +105,11 @@ function BooksArchive() {
             ))}
           </ul>
         </div>
-        <div style={{ textAlign: 'center', marginTop: '20px', paddingBottom: '40px' }}>
-          <Link
-                style={{
-                  textDecoration: 'none',
-                  fontSize: '12px',
-                  color: 'gray',
-                }}
-                to="/archive"
-              >
-                ← take me back
-              </Link>
-              </div>
+        <div className="nav-back">
+          <Link className="nav-link" to="/">
+            ← back
+          </Link>
+        </div>
       </div>
     </div>
   );

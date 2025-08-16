@@ -1,128 +1,228 @@
+/* Ensure pages start at top */
+html {
+  scroll-behavior: smooth;
+}
 
-.App-link {
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Universal link hover effects */
+a {
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+a:hover {
+  color: #2e536a !important;
+  text-decoration: underline !important;
+}
+
+/* Home page links - dark red by default */
+.home-layout a {
   color: #6799b6;
-  display: block;
-  text-decoration:underline;
+  text-decoration: none;
+  font-weight: 600;
+}
 
+.home-layout a:hover {
+  color: #2e536a;
+  text-decoration: underline;
+}
+
+/* Main App Layout */
+.App {
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #000000;
+  min-height: 100vh;
+  padding: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Home Page Specific Layout */
+.App.home-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Link Styles */
+.App-link {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
 }
 
 .App-link:hover {
-  text-decoration:none;
-
   color: #2e536a;
-
+  text-decoration: underline;
 }
 
 .social-link {
-  color: darkgray;
-
+  color: #000000;
   display: block;
   text-decoration: none;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
 }
 
 .social-link:hover {
-  color: rgb(70, 70, 70)
-  
-
+  color: #2e536a;
+  text-decoration: underline;
 }
+
+/* Container Layouts */
 .main-container {
-  margin: 0px 50px;
-  background-color: #ffffff;   /* #282c34 */
-  min-height: 100vh;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* font-size: calc(10px + 2vmin); */
-  color: black;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  min-height: 100vh;
 }
 
-
-.top-box {
-  text-align: left;
-  font-size: calc(4vmin);
-  letter-spacing: 1px; /* Adjust the letter-spacing value as needed */
-}
-.top-box h1 {
-  margin-bottom:1vh;
-  padding-top: 0px;
-  margin-top:0px;
-  
-
-
+.main-container.flex-start {
+  align-items: flex-start;
 }
 
-.top-box p {
-  padding: 0px;
-  margin:0;
-  margin-bottom: 2.5vh;
+.main-container.center {
+  align-items: center;
 }
 
-.link-box {
-  justify-content: space-between;
-  display: flex;
-  font-size: calc(3vmin);
-  letter-spacing: 2px; /* Adjust the letter-spacing value as needed */
-}
-.link-box-1 {
-  text-align: left;
-}
-.link-box-2 {
-  text-align: right;
+.content-container {
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  max-width: 800px;
+  justify-self: center;
 }
 
-@media only screen and (max-width: 600px) {
-  .link-box {
-    display: block;
-
-  }
-
-  .link-box-2 {
-    text-align: left;
-  }
-  
+.archive-container {
+  max-width: 600px;
+  text-align: center;
+  width: 100%;
 }
 
-
-
-.link-box > div {
-  margin-right: 10px; /*Adjust the margin as needed for the desired spacing*/
+/* Typography */
+.page-title {
+  color: #000000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 0.05em;
 }
 
-.link-box > div:last-child {
-  margin-right: 0; /* Remove margin from the last div to avoid extra spacing */
+.section-heading {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.05em;
 }
 
-
-.bottom-box {
-  height: 5vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end; /* Align items to the bottom */
-
-}
-.social-box {
-  display: flex;
-  justify-content: space-between;
-  font-size: calc(2.5vmin);
+.home-section-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+  letter-spacing: 0.05em;
 }
 
+.intro-text {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  /* font-style: italic; */
+}
+
+.intro-text-small {
+  color: #000000;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.intro-text-compact {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* List Styles */
+.clean-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.clean-list.center {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.home-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
+.list-item {
+  margin-bottom: 1rem;
+}
+
+.list-item-compact {
+  margin-bottom: 0.8rem;
+}
+
+.list-item-compact a {
+  color: #6799b6;
+  /* text-decoration: none; */
+}
+
+.list-item-small {
+  margin-bottom: 0.5rem;
+}
+
+.list-item-home {
+  margin-bottom: 0;
+}
+
+/* Grid Layouts */
 .grid-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center the grid items horizontally */
-  align-items: center; /* Center the grid items vertically, if needed */
-  width: 100%; /* Ensure the grid container takes up the full width */
-  max-width: 1300px; /* Set a maximum width for the grid container */
-  margin: 0 auto; /* Center the grid container within its parent */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .grid-item-container {
   margin: 10px;
   text-align: center;
-  cursor: pointer; /* Add cursor pointer to indicate clickability */
+  cursor: pointer;
 }
 
 .grid-item {
@@ -133,14 +233,87 @@
 .image-label {
   margin-top: 5px;
   font-size: 14px;
-  color: grey;
+  color: #000000;
 }
 
-.photographing2020 {
-  color: grey;
-  text-align: left;
+/* Home Page Grid */
+.main-content {
+  position: fixed;
+  left: 160px;
+  bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-height: calc(100vh - 80px);
+  overflow: hidden;
 }
 
+.content-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.vertical-name {
+  position: fixed;
+  left: 45px;
+  bottom: 40px;
+  writing-mode: sideways-lr;
+  text-orientation: mixed;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.contact-info {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: right;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: black;
+}
+
+.contact-info div {
+  margin-bottom: 1px;
+}
+
+.contact-info div:last-child {
+  margin-bottom: 0;
+}
+
+.contact-info .social-links a {
+  color: #6799b6; 
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.contact-info .social-links a:last-child {
+  margin-right: 0;
+}
+
+/* Navigation */
+.nav-back {
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 40px;
+}
+
+.nav-back-home {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #000000;
+}
+
+/* Modal Styles */
 .modal {
   display: flex;
   justify-content: center;
@@ -157,17 +330,17 @@
 
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: #FFFFFF;
   margin: auto;
   padding: 20px;
-  border: 1px solid #888;
+  border: 1px solid #000000;
   width: 80%;
   max-width: 700px;
   text-align: center;
 }
 
 .close {
-  color: #aaa;
+  color: #000000;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -175,7 +348,7 @@
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: #666666;
   text-decoration: none;
   cursor: pointer;
 }
@@ -188,9 +361,97 @@
 .modal-label {
   margin-top: 10px;
   font-size: 18px;
-  color: #333;
+  color: #000000;
 }
 
-li a {
-  color: #6799b6
+/* Button Styles */
+.button, .highlight {
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1.2em;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.button:hover, .highlight:hover {
+  background-color: #333333;
+}
+
+/* Special Text Styles */
+.photographing2020 {
+  color: #000000;
+  text-align: left;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .vertical-name {
+    position: fixed;
+    font-size: 2.5rem !important;
+    margin-bottom: 0rem !important;
+    text-align: center !important;
+    left: 5vw;
+    z-index: 10;
+  }
+  
+  .main-content {
+    position: static !important;
+    left: auto !important;
+    bottom: auto !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+    padding: 0rem !important;
+    max-height: none !important;
+    box-sizing: border-box !important;
+    text-align: right !important;
+    margin-left: 10vw;
+  }
+  
+  .content-column {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    gap: 1rem !important;
+    width: 100% !important;
+    max-width: calc(100vw - 2rem) !important;
+    margin-bottom: 0 !important;
+    padding: 0 1rem !important;
+    box-sizing: border-box !important;
+  }
+  
+  .content-column > div {
+    margin-bottom: 0 !important;
+  }
+  
+  .contact-info {
+    position: static !important;
+    text-align: right !important;
+    padding: 3rem 0rem 3rem 0 !important;
+    box-sizing: border-box !important;
+    margin: 0;
+    background: white;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .main-content {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .link-box {
+    display: block;
+  }
+
+  .link-box-2 {
+    text-align: left;
+  }
 }
